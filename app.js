@@ -5,11 +5,11 @@ const port = 3000
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('ui/index')
+  res.render('index')
 })
 
 app.get('/defaultsite', (req, res) => {
-  res.render('ui/index')
+  res.render('index')
 })
 
 app.listen(port, () => {
