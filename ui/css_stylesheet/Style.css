@@ -12,7 +12,7 @@ body {
   margin: auto;
   font-family: "Montserrat", sans-serif;
   font-size: 14pt;
-  background-image: url(./background_sri.svg);
+  background-image: url(../images/background_sri.svg);
   background-repeat: repeat;
   background-size: 20%;
   height: 100vh;
