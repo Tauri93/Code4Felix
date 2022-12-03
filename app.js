@@ -5,7 +5,7 @@ const port = 3000
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 
-app.get('/' || '/defaultsite', (req, res) => {
+app.get('/defaultsite' || '/', (req, res) => {
   res.render('SRC')
 })
 
