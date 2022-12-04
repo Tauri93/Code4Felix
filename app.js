@@ -6,7 +6,11 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 
 app.get(['/defaultsite' , '/'], (req, res) => {
-  res.render('SRC')
+  res.render('home')
+})
+
+app.get(['/defaultsite/network' , '/network'], (req, res) => {
+  res.render('networks')
 })
 
 app.listen(port, () => {
