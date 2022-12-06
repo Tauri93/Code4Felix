@@ -44,8 +44,10 @@ footer {
 .footer_site {
   background-color: lightgray;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0 -5px 10px black;
+  font-weight: 600;
+  color: rgb(2, 170, 225);
 }
 
 h1 {
